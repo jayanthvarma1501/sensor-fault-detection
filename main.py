@@ -25,7 +25,6 @@ def set_env_variable(env_file_path):
         env_config = read_yaml_file(env_file_path)
         os.environ['MONGO_DB_URL']=env_config['MONGO_DB_URL']
 
-
 app = FastAPI()
 origins = ["*"]
 
