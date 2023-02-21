@@ -1,4 +1,4 @@
-name: workflow
+name: sensor-workflow
 
 on:
   push:
