@@ -28,6 +28,7 @@ def set_env_variable(env_file_path):
 app = FastAPI()
 origins = ["*"]
 
+
 app.add_middleware(
     CORSMiddleware,
     allow_origins=origins,
